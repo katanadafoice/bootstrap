@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Camisetas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">JoinShop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="hero-section bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Bem-vindo à JoinShop</h1>
+            <p class="lead">Descubra nossas camisetas exclusivas e de alta qualidade.</p>
+            <a href="#produtos" class="btn btn-light btn-lg">Oversized T-shirt</a>
+        </div>
+    </header>
+
+
+    <section id="sobre" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Sobre Nós</h2>
+                    <p>Somos uma loja especializada em camisetas de alta qualidade, com designs exclusivos e conforto incomparável. Nossa missão é oferecer produtos que combinam estilo e durabilidade.</p>
+                    <p>Explore nossa coleção e encontre a camiseta perfeita para você!</p>
+                </div>
+                <div class="col-lg-6 parent">
+                    <img src="JoinShop.png" alt="Sobre Nós" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="produtos" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nossos Produtos</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="card mb-4">
+                        <img src="https://static.reserved.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/8/8/8804N-09M-001-1-797758_1.jpg" class="card-img-top" alt="Camiseta 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta Oversized lisa</h5>
+                            <p class="card-text">R$ 69,90</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card mb-4">
+                        <img src="https://static.reserved.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/5/9/592BM-90X-002-1-844851_1.jpg" class="card-img-top" alt="Camiseta 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta Oversized lisa</h5>
+                            <p class="card-text">R$ 69,90</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card mb-4">
+                        <img src="https://koaj.ec/243136-thickbox_default/camiseta-para-hombre-unicolor-cuello-redondo-manga-corta-con-doblez-fit-oversize.jpg" class="card-img-top" alt="Camiseta 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Camiseta Oversized Premium</h5>
+                            <p class="card-text">R$ 79,90</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contato</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2023 Loja de Camisetas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

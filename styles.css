@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 56px;
+}
+
+.hero-section {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(250, 188, 72, 0.1);
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
